@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "news-app",
+    "sdkVersion": "40.0.0",
+    "slug": "news-app",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.first.news-app"
+    },
+    "extra": { 
+      "newsApiKey": "3037f8b62af64c07b753211615f7038c" 
+    }
+  }
+}
